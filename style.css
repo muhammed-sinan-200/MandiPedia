@@ -2,7 +2,7 @@
 
 
 .logo{
-    font-family: poppins;
+    font-family: 'Poppins',sans-serif;
 }
 .logo h1{
     font-weight: 500;
@@ -65,8 +65,6 @@
     border-top-left-radius: 150px;
 }
 .bg-about h1{
-    /* font-family: dancing-script ; */
-    /* font-family: Brush Script MT; */
     font-family: Lucida Handwriting;
 }
 .about-des p{
@@ -141,15 +139,18 @@
     text-align: center;
     margin-top: 50px;
 }
+
 #contact .container .follow-icons i{
     font-size: x-large;
     color: black;
     transition: transform .5s ease;
     cursor: pointer;
 }
+.follow-icons{
+    display: flex;
+}
 #contact .container .follow-icons i:hover{
     transform: scale(1.5);
-
 }
 #contact .container .address p,h4,a{
     color: black;
@@ -169,14 +170,65 @@
         padding: 0 15px;
     }
       #services .card {
-    max-width: 300px;   
+        max-width: 300px;   
+        margin: 10px auto;
+    }
+     #services h1, .card-text{
+        font-size: 1.2rem;
   }
+   #contact .container .rowp {
+        font-size: 1.2rem; 
+    }
     
 }
 @media (max-width: 576px) {
   section {
     padding: 30px 15px !important;
   }
+  .about-des p {
+        font-size: 0.9rem; 
+        text-align: justify;
+        padding: 0 15px;
+    }
+    #services .card {
+        max-width: 90%; 
+        margin: 10px auto;
+        text-align: center;
+    }
+    .button {
+        padding: 8px 15px; 
+        font-size: 1rem;
+    }
+    .quote h1, .quote h5 {
+        font-size: 1.2rem; 
+    }
+    #home img {
+        width: 100%; 
+        height: auto;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .quote h1,h5{
+        font-family: "Poppins";
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    #menu .card{
+        max-width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
 
 
