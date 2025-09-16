@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.logo{
+    font-family: poppins;
+}
+.logo h1{
+    font-weight: 500;
+}
+.bg-home{
+    background-color: antiquewhite;
+    
+}
+.quote h1{
+    font-family: poppins;
+    font-weight: 200;
+    opacity: 0;
+    animation: showup 1s ease forwards;
+    animation-delay: 1s;
+}
+.quote h5{ 
+    font-family: Lucida Handwriting;
+    animation: showup 1s ease forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+#home img{
+    animation: showright 1s ease forwards;
+    animation-delay: .2s;
+    opacity: 0;
+}
+@keyframes showup{
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+  
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+@keyframes showright{
+    0%{
+        opacity: 0;
+        transform: translate(-100px);
+    }
+  
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.bg-menu{
+    background-color: rgb(255, 196, 181);
+}
+.bg-services{
+    background-color: antiquewhite;
+}
+.bg-about{
+    background-color: rgb(251, 152, 152);
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 150px;
+}
+.bg-about h1{
+    /* font-family: dancing-script ; */
+    /* font-family: Brush Script MT; */
+    font-family: Lucida Handwriting;
+}
+.about-des p{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+}
+#menu{
+    scroll-margin-top:70px ;
+}
+#menu .container h1{
+    font-family: Lucida Handwriting;    
+}
+#services{
+    scroll-margin-top:90px ;
+    padding: 50px;
+}
+#services h1,.card-text{
+    font-family: Lucida Handwriting;    
+}
+#services .card{
+    border-radius: 10px;
+    transition: transform .5s ease,background-color .5s ease, color .5s ease;
+}
+#services .card i{
+    -webkit-text-fill-color: rgb(187, 30, 30);
+}
+#services .card:hover{
+    transform: translateY(-10px);
+    background-color: rgb(247, 91, 83);
+    color: white;
+}
+#contact .container .rowp{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    font-family:Lucida Handwriting ;
+}
+.button{
+   padding: 10px 20px;
+   max-width: fit-content;
+   background-color: #23d42f;
+   border-radius: 15px;
+   cursor: pointer;
+   margin: auto;
+   transition: background-color .5s ease;
+}
+.button:hover{
+    background-color: #0cc218;
+}
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: 500;
+}
+.button i{
+    color: #d9ffdb;
+    font-size: xx-large;
+
+}
+#contact{
+    background: linear-gradient(90deg, #fe393f, #c85d5d);
+}
+#contact .container .address a{
+    color: black;
+}
+#contact .container .address{
+    text-align: center;
+    margin-top: 50px;
+}
+#contact .container .follow-icons i{
+    font-size: x-large;
+    color: black;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+#contact .container .follow-icons i:hover{
+    transform: scale(1.5);
+
+}
+#contact .container .address p,h4,a{
+    color: black;
+}
+#contact .container .copyright{
+    text-align: center;
+}
+
+
+
+
+
