@@ -165,6 +165,7 @@ nav ul{
     margin: 0%;
     flex-wrap: wrap;
 }
+
 @media (max-width:768px){
     nav ul{
         flex-direction: column;
@@ -175,8 +176,9 @@ nav ul{
         margin-left: -40px;  
     }
     #menu .card{
-        text-align: center;
-        margin: 10px auto;
+       text-align: center;
+       margin: 0%;
+       height: 100%; 
     }
     .about-des p{
         font-size: 1rem;
@@ -188,7 +190,7 @@ nav ul{
         margin: 10px auto;
     }
      #services h1, .card-text{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
   }
    #contact .container .rowp {
         font-size: 1.2rem; 
@@ -226,9 +228,9 @@ nav ul{
         font-size: 1.2rem;
     }
     #menu .card{
-        max-width: 90%;
-        margin: 10px auto;
+        max-width: 100%;
         text-align: center;
+        margin: 0 ;
     }
 }
 
