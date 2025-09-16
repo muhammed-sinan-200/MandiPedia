@@ -83,7 +83,7 @@
 }
 #services{
     scroll-margin-top:90px ;
-    padding: 50px;
+    padding: 25px;
 }
 #services h1,.card-text{
     font-family: Lucida Handwriting;    
@@ -91,6 +91,7 @@
 #services .card{
     border-radius: 10px;
     transition: transform .5s ease,background-color .5s ease, color .5s ease;
+    margin: 10px auto;
 }
 #services .card i{
     -webkit-text-fill-color: rgb(187, 30, 30);
@@ -156,6 +157,29 @@
 #contact .container .copyright{
     text-align: center;
 }
+
+@media (max-width:768px){
+    #menu .card{
+        text-align: center;
+        margin: 10px auto;
+    }
+    .about-des p{
+        font-size: 1rem;
+        text-align: justify;
+        padding: 0 15px;
+    }
+      #services .card {
+    max-width: 300px;   
+  }
+    
+}
+@media (max-width: 576px) {
+  section {
+    padding: 30px 15px !important;
+  }
+}
+
+
 
 
 
