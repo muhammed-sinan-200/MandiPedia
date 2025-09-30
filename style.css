@@ -4,12 +4,27 @@
 .logo{
     font-family: 'Poppins',sans-serif;
 }
+.navbar-header{
+    /* background: linear-gradient(-120deg,rgb(251, 152, 152),rgb(210, 47, 47)); */
+    opacity: .9;
+}
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2px;
+    padding: 0%;
+    margin: 0%;
+    flex-wrap: wrap;
+}
 .logo h1{
     font-weight: 500;
 }
 .bg-home{
     background-color: antiquewhite;
-    
 }
 .quote h1{
     font-family: 'Poppins',sans-serif;
@@ -78,6 +93,13 @@
 }
 #menu .container h1{
     font-family: Lucida Handwriting;    
+}
+#menu .card {
+  max-width: 100%;
+}
+#menu .card img{
+    height: 200px;
+    object-fit: cover;
 }
 #services{
     scroll-margin-top:90px ;
@@ -149,7 +171,7 @@
     display: flex;
 }
 #contact .container .follow-icons i:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 #contact .container .address p,h4,a{
     color: black;
@@ -157,17 +179,8 @@
 #contact .container .copyright{
     text-align: center;
 }
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 2px;
-    padding: 0%;
-    margin: 0%;
-    flex-wrap: wrap;
-}
-#menu .card {
-  max-width: 100%;   
-}
+
+
 
 @media (max-width:768px){
     nav ul{
@@ -204,6 +217,14 @@ nav ul{
   section {
     padding: 30px 15px !important;
   }
+  .bg-about{
+    background-color: rgb(251, 152, 152);
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+}.bg-about h1{
+    font-family: Lucida Handwriting;
+    border-bottom: 1px solid;
+}
   .about-des p {
         font-size: 0.9rem; 
         text-align: justify;
