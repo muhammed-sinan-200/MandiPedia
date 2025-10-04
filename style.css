@@ -250,8 +250,11 @@ nav ul{
         padding: 8px 15px; 
         font-size: 1rem;
     }
-    .quote h1, .quote h5 {
-        font-size: 1.2rem; 
+    .quote h1 {
+        font-size: 2rem; 
+    }
+    .quote h5{
+        font-size: 2rem;
     }
     #home img {
         width: 100%; 
@@ -260,7 +263,7 @@ nav ul{
     .quote h1,h5{
         font-family: "Poppins";
         font-weight: 200;
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     #menu .card{
         max-width: 100%;
