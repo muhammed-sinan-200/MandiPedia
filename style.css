@@ -220,7 +220,7 @@ nav ul{
         font-size: 1.2rem; 
     }
     #services h1,.card-text{
-    font-family: "Lucida Handwriting",cursive;    
+    font-family: "Lucida Handwriting";    
 }
     
 }
@@ -260,7 +260,7 @@ nav ul{
     .quote h1,h5{
         font-family: "Poppins";
         font-weight: 200;
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     #menu .card{
         max-width: 100%;
