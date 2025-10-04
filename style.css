@@ -3,7 +3,7 @@ body{
     animation: fade 1.5s ease forwards;
 }
 .logo{
-    font-family: 'Poppins',sans-serif;
+    font-family: "Lucida Handwriting",'Poppins',sans-serif;
 }
 .navbar-header{
     opacity: .9;
@@ -91,10 +91,11 @@ nav ul{
     font-family: "Lucida Handwriting" ,"Cedarville Cursive";
 }
 .about-des p{
-    font-family: "Poppins";
+    font-family: "Lucida Handwriting","Cedarville Cursive";
     font-weight: 300;
     font-size: x-large;
     text-align: center;
+    line-height: 2;
 }
 #menu{
     scroll-margin-top:70px ;
@@ -262,7 +263,6 @@ nav ul{
         height: auto;
     }
     .quote h1, .q2{
-        font-family: "Poppins";
         font-weight: 200;
     }
     #menu .card{
