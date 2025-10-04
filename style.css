@@ -35,7 +35,7 @@ nav ul{
     animation-delay: 1s;
 }
 .quote h4{ 
-    font-family: "Lucida Handwriting";
+    font-family: "Lucida Handwriting",cursive;
     animation: showup 1s ease forwards;
     animation-delay: 1.5s;
     opacity: 0;
@@ -258,7 +258,7 @@ nav ul{
         font-size: 2rem; 
     }
     .quote .q2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     #home img {
         width: 100%; 
