@@ -35,7 +35,7 @@ nav ul{
     animation-delay: 1s;
 }
 .quote h4{ 
-    font-family: "Lucida Handwriting",cursive;
+    font-family: "Lucida Handwriting";
     animation: showup 1s ease forwards;
     animation-delay: 1.5s;
     opacity: 0;
@@ -44,6 +44,13 @@ nav ul{
     animation: showright 1s ease forwards;
     animation-delay: .2s;
     opacity: 0;
+}
+@font-face {
+    font-family: "Lucida Handwriting";
+    src: url("fonts/LucidaHandwriting.woff2") format("woff2"),
+         url("fonts/LucidaHandwriting.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 @keyframes showup{
     0%{
@@ -163,7 +170,6 @@ nav ul{
     font-size: xx-large;
 }
 #contact{
-    /* background: linear-gradient(90deg, #fe393f, #c85d5d); */
     background-color: rgb(187, 30, 30);
 }
 #contact .container .address a{
