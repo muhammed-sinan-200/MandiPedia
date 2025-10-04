@@ -35,7 +35,7 @@ nav ul{
     animation-delay: 1s;
 }
 .quote h5{ 
-    font-family: Lucida Handwriting;
+    font-family: "Lucida Handwriting";
     animation: showup 1s ease forwards;
     animation-delay: 1.5s;
     opacity: 0;
@@ -89,7 +89,7 @@ nav ul{
     border-top-left-radius: 150px;
 }
 .bg-about h1{
-    font-family: Lucida Handwriting;
+    font-family: "Lucida Handwriting";
 }
 .about-des p{
     font-family: poppins;
@@ -101,7 +101,7 @@ nav ul{
     scroll-margin-top:70px ;
 }
 #menu .container h1{
-    font-family: Lucida Handwriting;    
+    font-family: "Lucida Handwriting";    
 }
 #menu .card {
   max-width: 100%;
@@ -115,7 +115,7 @@ nav ul{
     padding: 25px;
 }
 #services h1,.card-text{
-    font-family: Lucida Handwriting;    
+    font-family: "Lucida Handwriting";    
 }
 #services .card{
     border-radius: 10px;
@@ -135,10 +135,10 @@ nav ul{
     font-size: 1.5rem;
     color: white;
     font-weight: bolder;
-    font-family:Lucida Handwriting ;
+    font-family:"Lucida Handwriting" ;
 }
 .button{
-   padding: 10px 20px;
+   padding: 5px 10px;
    max-width: fit-content;
    background-color: #23d42f;
    border-radius: 15px;
@@ -197,7 +197,7 @@ nav ul{
         width: 100%;
     }
     nav ul li{
-        margin-left: -128px;  
+        margin-left: -128   px;  
     }
     #menu .card{
        text-align: center;
@@ -213,12 +213,15 @@ nav ul{
         max-width: 300px;   
         margin: 10px auto;
     }
-     #services h1, .card-text{
+     #services .card-text{
         font-size: 1.2rem;
   }
    #contact .container .rowp {
         font-size: 1.2rem; 
     }
+    #services h1,.card-text{
+    font-family: "Lucida Handwriting",cursive;    
+}
     
 }
 @media only screen and (max-width: 600px) {
@@ -230,7 +233,7 @@ nav ul{
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
 }.bg-about h1{
-    font-family: Lucida Handwriting;
+    font-family: "Lucida Handwriting";
     border-bottom: 1px solid;
 }
   .about-des p {
