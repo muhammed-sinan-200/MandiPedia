@@ -34,7 +34,7 @@ nav ul{
     animation: showup 1s ease forwards;
     animation-delay: 1s;
 }
-.quote h5{ 
+.quote h4{ 
     font-family: "Lucida Handwriting";
     animation: showup 1s ease forwards;
     animation-delay: 1.5s;
@@ -125,9 +125,12 @@ nav ul{
 #services .card i{
     -webkit-text-fill-color: rgb(187, 30, 30);
 }
+#services .card:hover i{
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
 #services .card:hover{
     transform: translateY(-10px);
-    background-color: rgb(247, 91, 83);
+    background-color: rgb(220, 53, 69);
     color: white;
 }
 #contact .container .rowp{
@@ -160,7 +163,8 @@ nav ul{
     font-size: xx-large;
 }
 #contact{
-    background: linear-gradient(90deg, #fe393f, #c85d5d);
+    /* background: linear-gradient(90deg, #fe393f, #c85d5d); */
+    background-color: rgb(187, 30, 30);
 }
 #contact .container .address a{
     color: black;
@@ -172,7 +176,7 @@ nav ul{
 #contact .container .follow-icons i{
     font-size: x-large;
     color: black;
-    transition: transform .5s ease;
+    transition: transform .3s ease;
     cursor: pointer;
 }
 .follow-icons{
@@ -253,17 +257,16 @@ nav ul{
     .quote h1 {
         font-size: 2rem; 
     }
-    .quote h5{
+    .quote .q2{
         font-size: 2rem;
     }
     #home img {
         width: 100%; 
         height: auto;
     }
-    .quote h1,h5{
+    .quote h1, .q2{
         font-family: "Poppins";
         font-weight: 200;
-        font-size: 1.2rem;
     }
     #menu .card{
         max-width: 100%;
