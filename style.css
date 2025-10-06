@@ -3,7 +3,7 @@ body{
     animation: fade 1.5s ease forwards;
 }
 .logo{
-    font-family: "Lucida Handwriting",'Poppins',sans-serif;
+    font-family:'Poppins',sans-serif;
 }
 .navbar-header{
     opacity: .9;
@@ -13,6 +13,7 @@ body{
     box-shadow: none !important;
 }
 nav ul{
+    font-family:  "Lucida Handwriting",sans-serif;
     display: flex;
     list-style: none;
     gap: 2px;
@@ -20,8 +21,9 @@ nav ul{
     margin: 0%;
     flex-wrap: wrap;
 }
-.logo h1{
-    font-weight: 500;
+.logo .brand-logo{
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
 }
 .bg-home{
     background-color: antiquewhite;
